@@ -29,6 +29,8 @@ Index_final.html gives the min, max and mean returns.
 ## Resources
 
 The numpy and pandas libraries in Python were used to summarize the data.
+I used the melt function to regroup the data so I could display the min, max and mean on one graph. Help for this was taken from the following blog:
+http://connor-johnson.com/2014/08/28/tidyr-and-pandas-gather-and-melt/
 
 Other resources included the following:
 
