@@ -35,6 +35,7 @@ http://connor-johnson.com/2014/08/28/tidyr-and-pandas-gather-and-melt/
 Other resources included the following:
 
 http://dimplejs.org/examples_index.html
+
 https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.chart#addMeasureAxis
 
 
