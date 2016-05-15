@@ -8,7 +8,7 @@ The visualisation examines loan data provided by Prosper, a peer-to-peer lending
 ## Design
 I started out by examining the entire dataset in Tableau looking for interesting patterns in the data. The effective return generated through lending through this service I feel is an important variable, and one which I decided to focus on.
 
-The resulting circle view graph in Tableau showed a decrease in returns over time however I felt this graph looked messy. Further, since there are almost 114,000 datapoints, when attempting to generate a scatterplot of this data using dimple, I was unable to load the graph.
+The resulting circle view graph in Tableau (see Intial_Tableau_Image.png) showed a decrease in returns over time however I felt this graph looked messy. Further, since there are almost 114,000 datapoints, when attempting to generate a scatterplot of this data using dimple, I was unable to load the graph.
 
 I therefore summarised the data, looking at mean returns over time. There appeared to be no outliers in the data, based on the Tableau chart. I used the pandas and numpy libraries in Python to group the data by years, focussing on the effective returns and listing date.
 
