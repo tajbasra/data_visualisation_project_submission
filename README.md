@@ -10,9 +10,9 @@ I started out by examining the entire dataset in Tableau looking for interesting
 
 The resulting circle view graph in Tableau (see Intial_Tableau_Image.png) showed a decrease in returns over time however I felt this graph looked messy. Further, since there are almost 114,000 datapoints, when attempting to generate a scatterplot of this data using dimple, I was unable to load the graph.
 
-I therefore summarised the data, looking at mean returns over time. There appeared to be no outliers in the data, based on the Tableau chart. I used the pandas and numpy libraries in Python to group the data by years, focussing on the effective returns and listing date.
+I therefore summarised the data, looking at median returns over time. There appeared to be no outliers in the data, based on the Tableau chart. I used the pandas and numpy libraries in Python to group the data by years, focussing on the effective returns and listing date.
 
-My initial visualisation combines a scatterplot with a line chart so that each data point is highlighted using the scatterplot and the trend is highlighted with the line graph. I changed the y-axis tick format to give the returns in percentage, I felt this would be easier to understand. I also fixed the maximum and minimum values for the y-axis to zoom in on the data. Interaction within this graph is through the ability to hover over a data point in order to see the actual figures behind the data. 
+My initial visualisation combines a scatterplot with a line chart so that each data point is highlighted using the scatterplot and the trend is highlighted with the line graph. The variables are a time series versus a continuous variable, which generally calls for a line chart. I changed the y-axis tick format to give the returns in percentage, I felt this would be easier to understand. I also fixed the maximum and minimum values for the y-axis to zoom in on the data. Interaction within this graph is through the ability to hover over a data point in order to see the actual figures behind the data. 
 
 Feedback is based on the initial visualisation (index1.html).
 
@@ -22,9 +22,9 @@ The main takeaway from the first person was that while the graph is very easy to
 
 After removing the redundant datapoints, the remaining feedback was based on the index2.html visualisation.
 
-Feedback from the next two people was focussed around a similar theme, that the graph was an oversimplified summary, and that the spread of returns should be given in order to display the range of returns that could be achieved. Including the maximum and minimum value for each year was a good middle ground between the overly busy scatter plot and the oversimplified mean returns graph. This would clearly display a reduced spread in returns over time, as well as giving a more complete picture of potential returns. 
+Feedback from the next two people was focussed around a similar theme, that the graph was an oversimplified summary, and that the spread of returns should be given in order to display the range of returns that could be achieved. Including the maximum and minimum value for each year was a good middle ground between the overly busy scatter plot and the oversimplified median returns graph. This would clearly display a reduced spread in returns over time, as well as giving a more complete picture of potential returns. 
 
-Index_final.html gives the min, max and mean returns.
+Index_final.html gives the min, max and median returns.
 
 ## Resources
 
